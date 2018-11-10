@@ -1,0 +1,32 @@
+body,figure,ul,li,h2,p{padding: 0;margin: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+
+html,body{height: 100%;}
+body{font-size: .23rem;display: flex;flex-direction: column;position: relative;}
+
+header{display: flex;height: .88rem;background: #0cc440;position: relative;justify-content: center;align-items: center;}
+header a{display: block;width: 1.2rem;height: .48rem;background: rgba(255,255,255,.2);color: #a3e9b7;font-size: .24rem;text-align: center;line-height: .48rem;}
+header span{position: absolute;top: 0;left: 0;line-height: .88rem;color: #fff;padding: 0 .3rem;display: block;}
+header a:first-of-type{border-radius:.24rem 0 0 .24rem;}
+header a:last-of-type{border-radius: 0 .24rem .24rem 0;color: #fff;background: rgba(255,255,255,.4);}
+
+
+section{flex: 1;overflow: auto;margin-bottom: .1rem;background: #f1f1f1;}
+section figure{width: 100%;border-bottom: 0.01rem solid #e4e4e4;margin-bottom: .1rem;background: #fff;}
+section .f_top{width: 92.5%;padding:.21rem 3.9% 0.25rem 3.6%;}
+section .head{float: left;width: .93rem;height: .93rem;border: .01rem solid #acacac;border-radius: 50%;margin-right: .2rem;}
+section h2{font-size: .28rem;line-height: 48.rem;font-weight: normal;}
+section h2 span{float: right;font-size: .24rem;opacity: .2;}
+section p{font-size: .24rem;line-height: .48rem;color: #999;}
+section img{width: 100%;}
+section figcaption{font-size:.24rem;line-height: .6rem;border-bottom: .01rem solid #e4e4e4;padding-left: .2rem;color: #333;}
+
+footer{display: flex;height: .87rem;display: flex;justify-content: space-around;color: #d6d6d6;position: relative;}
+footer .iconfont{font-size: .32rem;}
+footer figure:nth-of-type(1){color: #0dc441;}
+footer figure:nth-of-type(3) span{font-size: .6rem;position: absolute;bottom: 0;left: 2.73rem;display: block;width: 1.03rem;height: 1.03rem;border: .01rem solid #d6d6d6;line-height: 1rem;text-align: center;border-radius: 50%;background: #fff;}
+footer figure{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+footer figcaption{font-size: .23rem;}
+footer .out{z-index: 4;}
